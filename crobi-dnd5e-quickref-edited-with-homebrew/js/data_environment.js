@@ -96,7 +96,7 @@ data_environment_vision = [
 data_environment_cover = [
     {
         title: "Half cover",
-        icon: "broken-shield",
+        icon: "acorn",
         subtitle: "Low wall, furniture, creatures",
         description: "A target has half cover if an obstacle blocks at least half of its body",
         reference: "PHB, pg. 196.",
@@ -108,7 +108,7 @@ data_environment_cover = [
     },
     {
         title: "Three-quarters cover",
-        icon: "cracked-shield",
+        icon: "axe-in-stump",
         subtitle: "Portcullis, arrow slit",
         description: "A target has three-quarters cover if about three-quarters of it is covered by an obstacle",
         reference: "PHB, pg. 196.",
@@ -120,12 +120,12 @@ data_environment_cover = [
     },
     {
         title: "Full cover",
-        icon: "shield",
+        icon: "barbed-wire",
         subtitle: "Completely concealed",
         description: "A target has total cover if it is completely concealed by an obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can’t be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
+            "A target with total cover <b>can't be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
             "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
         ]
     }
