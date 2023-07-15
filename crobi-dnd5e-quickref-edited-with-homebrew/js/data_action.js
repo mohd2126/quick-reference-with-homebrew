@@ -161,7 +161,8 @@ data_action = [
             "First, you decide what perceivable circumstance will trigger your reaction.",
             "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
             "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration",
+            "Homebrew: you can use your action on subsequent turns to continue holding a spell that you readied"
         ]
     },
     {
