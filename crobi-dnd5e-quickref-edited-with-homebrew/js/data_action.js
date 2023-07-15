@@ -73,7 +73,7 @@ data_action = [
     },
     {
         title: "Dodge",
-        icon: "aura",
+        icon: "dodging",
         subtitle: "Increase defenses",
         description: "Focus entirely on avoiding attacks",
         reference: "PHB, pg. 192.",
