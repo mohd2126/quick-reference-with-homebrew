@@ -200,5 +200,20 @@ data_condition = [
             "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
             "Once stable, you regain 1 hit point after 1d4 hours."
         ]
+    },
+    {
+        title: "Fatigued",
+        icon: "big-egg",
+        subtitle: "You are fatigued",
+        description: "This will replace some instances of exhaustion in the game as a less severe version of it",
+        reference: "homebrew ruel",
+        bullets: [
+            "While you are subjected to the Fatigued Condition, you experience the following effects:",
+            "Levels of Fatigue: This Condition is cumulative. Each time you receive it, you gain 1 level of Fatigue.",
+            "If your levels of Fatigue exceed 10 you fall unconscious until they are reduced to less than 10.",
+            "d20 Rolls Affected. When you make a d20 Test, you subtract your Fatigue level from the d20 roll.",
+            "Spell Save DCs Affected. Subtract your Fatigue level from the Spell save DC of any Spell you cast.",
+            "Ending the Condition. Finishing a Long Rest removes 5 of your levels of Fatigue. When your Fatigue level reaches 0, you are no longer Fatigued."
+        ]
     }
 ]
