@@ -125,7 +125,7 @@ data_environment_cover = [
         description: "A target has total cover if it is completely concealed by an obstacle",
         reference: "PHB, pg. 196.",
         bullets: [
-            "A target with total cover <b>can't be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect.",
+            "A target with total cover <b>can't be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect, the target has a +5 to Dex saves against such spells as if it had 3/4 cover.",
             "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
         ]
     }
