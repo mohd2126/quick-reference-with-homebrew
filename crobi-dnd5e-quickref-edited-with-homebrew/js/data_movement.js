@@ -14,23 +14,14 @@ data_movement = [
         ]
     },
     {
-        title: "Climb",
+        title: "Climbing, Swimming and Crawling",
         icon: "crags",
         subtitle: "Cost: 10ft per 5ft",
         description: "Movement cost: 10ft per 5ft climbed",
         reference: "PHB, pg. 182.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
-        ]
-    },
-    {
-        title: "Swim",
-        icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
-        reference: "PHB, pg. 182.",
-        bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Each foot of movement costs 1 extra foot (2 extra feet in difficult terrain) when you're climbing, swimming, or crawling. You ignore this extra cost if you have a climbing speed and use it to climb, or a swimming speed and use it to swim.",
+            "May involve a Strength (Athletics) check if the climb or swim is difficult"
         ]
     },
     {
@@ -42,27 +33,18 @@ data_movement = [
         bullets: [
             "You can drop prone without using any of your speed",
             "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (melee attacks against you have advantage, ranged attacks against you have disadvantage, your own attacks have disadvantage)"
-        ]
-    },
-    {
-        title: "Crawl",
-        icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
-        reference: "PHB, pg. 182.",
-        bullets: [
-
+            "Dropping prone adds the <i>Prone</i> condition"
         ]
     },
     {
         title: "Stand up",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
+        subtitle: "Cost: half movement speed up to 15ft.",
         description: "Movement cost: half of your speed",
         reference: "PHB, pg. 190-191.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "You can't stand up if you don't have enough movement left or if your speed is 0",
+            "Standing up from being prone provokes attaks of oppurtonity"
         ]
     },
     {
@@ -93,6 +75,17 @@ data_movement = [
         ]
     },
     {
+        title: "Long high jump [N]",
+        icon: "jump-across",
+        subtitle: "Cost: 5ft per 5ft",
+        description: "Movement cost: 5ft per 5ft jumped",
+        reference: "Homebrew.",
+        bullets: [
+            "When you make a long high jump, you cover a horizontal distance equal to a standing long jump and a vertical distance equal to a standing high jump, if you move at least 10 feet on foot immediately before the jump. <br>    When you make a standing long high jump, you leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.",
+            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check."
+        ]
+    },
+    {
         title: "Improvise",
         icon: "juggler",
         subtitle: "Any stunt not on this list",
@@ -119,6 +112,26 @@ data_movement = [
         bullets: [
             "If you move while grappling another creature, your speed is halved, unless the creature is two or more sizes smaller than you.",
             "See the attack action for how to grapple a creature."
+        ]
+    },
+    {
+        title: "Flanking [C]",
+        icon: "Flanking",
+        subtitle: "+2 to attack rolls",
+        description: "take advantage of outnumbering your enemy",
+        reference: "PHB, pg. 195. + Homebrew",
+        bullets: [
+            "When making a melee attack, a creature gains a +2 bonus to the attack roll if its target is threatened by a creature that is friendly to the attacker, not incapacitated not blinded and on the target's opposite border or opposite corner.<br> This does not apply if the target is within 5 feet of an ally, or if the target is three size categories larger than the flanking creature. Creatures with blindsight or tremorsense are immune to being flanked."
+        ]
+    },
+    {
+        title: "Highgroud [N]",
+        icon: "tower-flag",
+        subtitle: "+2 to attack rolls",
+        description: "take advantage of your altitude",
+        reference: "Homebrew",
+        bullets: [
+            "When a creature, standing on solid ground, makes a ranged attack against a target whose head or highest body part is 10 feet or more below it, it gains a +2 to bonus to the attack roll."
         ]
     }
 ]
