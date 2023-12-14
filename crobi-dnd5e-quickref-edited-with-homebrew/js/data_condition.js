@@ -33,16 +33,13 @@ data_condition = [
         ]
     },
     {
-        title: "Exhaustion",
-        icon: "oppression",
+        title: "Exhaustion [C]",
+        icon: "despair",
         subtitle: "You are exhausted",
-        description: "Exhaustion is measured in six levels",
-        reference: "PHB, pg. 291.",
+        description: "Exhaustion is measured in ten levels",
+        reference: "OneDnD playtest",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on ability checks</td></tr><tr><td>2</td><td></td><td></td><td>Speed halved</td></tr><tr><td>3</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws</td></tr><tr><td>4</td><td></td><td></td><td>Hit point maximum halved</td></tr><tr><td>5</td><td></td><td></td><td>Speed reduced to 0</td></tr><tr><td>6</td><td></td><td></td><td>Death</td></tr></table>",
-            "You suffer the effect of your current level of exhaustion as well as all lower levels.",
-            "Finishing a long rest reduces your exhaustion level by 1, provided that you have also had some food and drink.",
-            "Also, being raised from the dead reduces a creature's exhaustion level by 1."
+            "•	<b>Levels of Exhaustion.</b> This Condition is cumulative. Each time you receive it, you gain 1 level of exhaustion. You die if your exhaustion level exceeds 10.<br>•	<b>d20 Rolls Affected.</b> When you make a d20 Test (Attack Rolls, Ability Checks and Saving Throws), you subtract your exhaustion level from the d20 roll.<br>•	<b>Spell and Ability Save DCs Affected.</b> Whenever you force another creature to make a saving throw either with an ability or spell subtract your exhaustion level from the save DC.<br>•	<b>Speed Reduced.</b> When you reach 5 levels of exhaustion, your speed is halved; when you reach 8, your speed is zero.<br>•	<b>Ending the Condition.</b> Finishing a Long Rest removes 1 of your levels of exhaustion. When your exhaustion level reaches 0, you are no longer Exhausted."
         ]
     },
     {
@@ -64,22 +61,22 @@ data_condition = [
         reference: "PHB, pg. 290.",
         bullets: [
             "Your speed becomes 0, and you can't benefit from any bonus to your speed.",
-            "The condition ends if your grappler is incapacitated.",
-            "The condition also ends if you are removed from the reach of your grappler."
+            "The condition ends if your grappler is incapacitated. <br> The condition also ends if you are removed from the reach of your grappler.",
+            "When one creature is grappling a target and another creature tries to move the target out of reach either by grappling it and moving away or shoving, the outcome is determined not just by a contested check between the second creature and the target, but also by a contested Athletics check between the first and the second creature."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Incapacitated [C]",
         icon: "egg-pod",
         subtitle: "Limited actions, no reactions",
-        description: "You can't take actions or reactions",
+        description: "Limited actions, no reactions",
         reference: "House Rules, combat rule 25",
         bullets: [
             "On your turn you can use either an action or a bonus action, not both. you can't use reactions.",
             "Regardless of your abilities or magic items you can't make more than a single attack during your turn.",
             "You have disadvantage on attack rolls.",
             "If you attempt to cast a spell with a casting time of 1 action roll a d20, On a 1-10 the spell is not cast, and the spell slot is wasted. On an 11-19 the spell doesn't take effect until your next turn and you must use your action on that turn to complete the spell, if you can't the spell is wasted. On a 20 the spell is cast normally."
-        ],
+        ]
     },
     {
         title: "Invisible",
@@ -95,7 +92,7 @@ data_condition = [
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Paralyzed [C]",
         icon: "internal-injury",
         subtitle: "You are paralyzed",
         description: "You can barely do anything",
@@ -157,7 +154,7 @@ data_condition = [
         ]
     },
     {
-        title: "Stunned",
+        title: "Stunned [C]",
         icon: "surprised-skull",
         subtitle: "You are stunned",
         description: "You are stunned",
@@ -170,7 +167,7 @@ data_condition = [
     },
     {
         title: "Unconscious",
-        icon: "coma",
+        icon: "sleepy",
         subtitle: "You are unconscious",
         description: "You are unconscious",
         reference: "PHB, pg. 292.",
@@ -183,13 +180,13 @@ data_condition = [
         ]
     },
     {
-        title: "Dying",
+        title: "Dying [C]",
         icon: "dead-head",
         subtitle: "You are dying",
         description: "You have been dropped to zero hit points and are dying",
-        reference: "PHB, pg. 197.",
+        reference: "PHB, pg. 197. + Homebrew",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious and are dying.",
+            "If you are reduced to 0 hit points by lethal damage, you fall unconscious and are dying.",
             "If you receive any healing you immediately regain consciousness again and no longer dying.",
             "When dying, at the start of each of your turns you make a death saving throw. Roll a d20 and do not add any modifiers.",
             "A 10 or higher is a success, 9 or lower is a failure.",
@@ -198,22 +195,28 @@ data_condition = [
             "Rolling a 1 counts as two failures.",
             "Rolling a 20 immediately causes you to regain 1 hit point.",
             "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours."
+            "Once stable, you regain 1 hit point after 1d4 hours.",
+            "[Homebrew]:<br>When a player character reaches 0 hit points and becomes unstable because of it, they gain one level of exhaustion."
         ]
     },
     {
-        title: "Fatigued",
-        icon: "big-egg",
-        subtitle: "You are fatigued",
-        description: "This will replace some instances of exhaustion in the game as a less severe version of it",
-        reference: "homebrew ruel",
+        title: "Dazed [N]",
+        icon: "stoned-skull",
+        subtitle: "You are dazed",
+        description: "",
+        reference: "Alex Mercer Homebrew",
         bullets: [
-            "While you are subjected to the Fatigued Condition, you experience the following effects:",
-            "Levels of Fatigue: This Condition is cumulative. Each time you receive it, you gain 1 level of Fatigue.",
-            "If your levels of Fatigue exceed 10 you fall unconscious until they are reduced to less than 10.",
-            "d20 Rolls Affected. When you make a d20 Test, you subtract your Fatigue level from the d20 roll.",
-            "Spell Save DCs Affected. Subtract your Fatigue level from the Spell save DC of any Spell you cast.",
-            "Ending the Condition. Finishing a Long Rest removes 5 of your levels of Fatigue. When your Fatigue level reaches 0, you are no longer Fatigued."
+            "A dazed creature can't take reactions. Moreover, it must choose whether it gets a move, an action, or a bonus action; it gets only one of the three."
+        ]
+    },
+    {
+        title: "Slowed [N]",
+        icon: "snail",
+        subtitle: "You are slowed",
+        description: "",
+        reference: "Alex Mercer Homebrew",
+        bullets: [
+            "•	A slowed creature's speed is halved.<br>•	Attack Rolls against the creature have Advantage.<br>•	The creature has Disadvantage on Dexterity Saving Throws."
         ]
     }
 ]
