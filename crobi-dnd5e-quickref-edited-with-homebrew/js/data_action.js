@@ -195,7 +195,7 @@ data_action = [
     {
         title: "Defend the Fallen [N]",
         icon: "surrounded-shield",
-        subtitle: "Defend an unconcious ally",
+        subtitle: "Defend a fallen ally",
         reference: "Homebrew",
         bullets: [
             "While within 5 feet of a prone or unconscious creature, you can take an action to force all attacks made against it to target you instead. This lasts until you are incapacitated, or more than 5 feet away from the protected creature."
@@ -209,6 +209,15 @@ data_action = [
         bullets: [
             "It is possible for a creature to climb another creature that is two or more sizes larger than it. In this case the opponent can be treated as terrain for the purpose of jumping onto its back or clinging to a limb. The smaller creature uses its action to make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check. If the smaller creature uses other methods to get on top of the larger creature, like teleportation or jumping on top of it from a higher position, then it can make the contested check without having to use an action.",
             "If it wins the contest, the smaller creature successfully moves into the target creature's space. The smaller creature moves with the target and has advantage on attack rolls against it. The smaller creature can move around within the larger creature's space, treating the space as difficult terrain. The larger creature's ability to attack the smaller creature depends on the smaller creature's location, and is left to the DMs discretion. The larger creature can dislodge the smaller creature as an action—knocking it off, scraping it against a wall, or grabbing and throwing it—by making a Strength (Athletics) check contested by the smaller creature's Strength (Athletics) or Dexterity (Acrobatics) check. The smaller creature chooses which ability to use."
+        ]
+    },
+    {
+        title: "Charge",
+        icon: "charging-bull",
+        subtitle: "Run at full speed and attack",
+        reference: "DMG, pg. 271. + Homebrew",
+        bullets: [
+            "you can use your action, bonus action and your full movement to move up to twice your speed in a straight line and make a single melee attack."
         ]
     }
 ]
