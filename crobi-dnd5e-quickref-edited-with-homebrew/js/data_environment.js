@@ -128,5 +128,14 @@ data_environment_cover = [
             "A target with total cover <b>can't be targeted directly</b> by an attack or a spell, although some spells can reach such a target by including it in an area of effect, the target has a +5 to Dex saves against such spells as if it had 3/4 cover.",
             "If a target is behind multiple sources of cover, only the most protective degree of cover applies"
         ]
+    },
+    {
+        title: "Hitting cover",
+        icon: "shield-impact",
+        subtitle: "Hitting cover in a near miss",
+        reference: "PHB, pg. 196.",
+        bullets: [
+            "When a ranged attack misses a target that has cover, you can use this optional rule to determine whether the cover was struck by the attack. First, determine whether the attack roll would have hit the protected target without the cover. If the attack roll falls within a range low enough to miss the target but high enough to strike the target if there had been no cover, the object used for cover is struck. If a creature is providing cover for the missed creature and the attack roll exceeds the AC of the covering creature, the covering creature is hit."
+        ]
     }
 ]
