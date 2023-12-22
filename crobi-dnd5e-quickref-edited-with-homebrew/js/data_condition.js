@@ -97,7 +97,7 @@ data_condition = [
         subtitle: "You are paralyzed",
         description: "You can barely do anything",
         bullets: [
-            "You are incapacitated, can't speak, and your speed is halved.",
+            "You are incapacitated, and can't move or speak.",
             "Attack rolls against you have advantage.",
             "Any attack that hits you is a critical hit if the attacker is within 5 feet of you.",
             "You automatically fail all strength and dexterity based saves and checks."
